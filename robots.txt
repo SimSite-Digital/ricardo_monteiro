@@ -1,0 +1,3 @@
+# Demo build — not for crawling
+User-agent: *
+Disallow: /
