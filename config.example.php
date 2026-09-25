@@ -26,10 +26,10 @@ return [
     'MAIL_SUBJECT'   => 'Contato pelo site',
 
     // --- WhatsApp redirect after a successful send ----------------------------
-    // [informar número] — not yet provided by the office. Digits only, with
-    // country and area code (e.g. 55 65 9xxxx-xxxx → '55659xxxxxxxx').
+    // Office WhatsApp, confirmed by the client: +55 65 9 8114-4133 (same
+    // number as content/site.mjs). Digits only, country and area code.
     // Empty = no redirect (the success message is shown and that is all).
-    'WHATSAPP_NUMBER' => '',
+    'WHATSAPP_NUMBER' => '5565981144133',
     // Pre-filled message. {nome} and {area} are replaced. Pending client
     // approval (the scope defines its content — name and area — not its words).
     'WHATSAPP_TEXT'   => 'Nome: {nome}. Área de interesse: {area}.',
