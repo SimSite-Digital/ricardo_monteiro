@@ -34,6 +34,13 @@ return [
     // approval (the scope defines its content — name and area — not its words).
     'WHATSAPP_TEXT'   => 'Nome: {nome}. Área de interesse: {area}.',
 
+    // --- Google Analytics 4 (spec D, client 13/10) ----------------------------
+    // PENDING: [informar ID de medição do GA4 — G-XXXXXXXXXX]. Mirror of
+    // content/site.mjs → analytics.measurementId (the static pages read the
+    // value at build time; keep both identical). The script stays behind
+    // flags.analytics (OFF) and, once on, loads only after consent.
+    'GA4_MEASUREMENT_ID' => '',
+
     // --- Anti-abuse --------------------------------------------------------------
     'MIN_FILL_SECONDS'  => 3,     // faster than this = bot (only when JS set the timer)
     'RATE_LIMIT_MAX'    => 5,     // submissions…
